@@ -2,3 +2,8 @@
     width: 60px;
     padding-right: 15px;
 }
+
+.navbar-nav{
+    margin-left: auto;
+    margin-right: 0 !important;
+}
