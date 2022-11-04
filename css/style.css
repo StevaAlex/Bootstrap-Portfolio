@@ -7,3 +7,8 @@
     margin-left: auto;
     margin-right: 0 !important;
 }
+
+.navbar-icon { 
+    color: black;
+    font-size: 20px;
+} 
