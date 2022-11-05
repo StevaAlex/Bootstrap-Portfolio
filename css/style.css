@@ -22,3 +22,19 @@
 .navbar a:hover { 
     text-decoration: none;
 }
+
+.jumbotron { 
+    background: url("../images/img2.jpg");
+    background-size: cover; 
+    text-align: center;
+    color: white;
+}
+
+.jumbotronContent { 
+    background-color: rgba(245, 168, 187, 0.75); /* first 3 numbers are the amount ofred, green and blue that makes up colour*/
+    padding: 20px; /*^^ 4th number is opacitity, 0 being transparent and 1 being opaque */
+    width: fit-content; 
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
