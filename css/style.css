@@ -26,7 +26,7 @@
 .jumbotron { 
     background: url("../images/img2.jpg");
     background-size: cover; 
-    text-align: center;
+    text-align: center; /*  puts text in the centre*/
     color: white;
 }
 
@@ -37,4 +37,19 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;
+} 
+
+.project1 img { 
+    height: 50vh;
+    object-fit: cover;
+    object-position: cover;
+    width: 100%;
+}
+
+.row2projects img, 
+.row3projects img { 
+    height: 30vh; /* makes height 30% of viewport height */
+    object-fit: cover; /* prevents image from being stretched to fit height, so zooms in  */
+    object-position: top; /* shows the top part of the image */
+    width: 100%;
 }
