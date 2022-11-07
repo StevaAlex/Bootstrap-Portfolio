@@ -12,7 +12,7 @@
 
 .navbar-icon { 
     color: black;
-    font-size: 20px;
+    font-size: 20px !important;
 } 
 
 .navbar { 
@@ -50,10 +50,28 @@
 }
 
 .aboutMe { 
-display: flex; 
-align-items: center; 
-width: 75vw; /* makes this section take up 75% of screen(from left to right), leaving a blank space at the end towards right */
-margin-left: 12.5vw; /* adds 12.5vw space towards the left, pushing content towards middle */
+    display: flex; 
+    align-items: center; 
+    width: 75vw; /* makes this section take up 75% of screen(from left to right), leaving a blank space at the end towards right */
+    margin-left: 12.5vw; /* adds 12.5vw space towards the left, pushing content towards middle */ 
+}
+.aboutMe h5 {
+    font-size: 2.5rem;
+}
+
+.skillsSection { 
+    margin: 5%;
+} 
+
+.skillsSection h1{ 
+    display: flex;
+    justify-content: center;
+}
+
+.skillsCard img { 
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
 }
 
 .project1 img { 
@@ -72,8 +90,7 @@ margin-left: 12.5vw; /* adds 12.5vw space towards the left, pushing content towa
     width: 100%;
 }
 
-.skillsCard img { 
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
+.projectSection h1 { 
+    display: flex;
+    justify-content: center;
 }
