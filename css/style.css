@@ -46,7 +46,7 @@
     width: 40vh;  
     object-fit: cover;
     border-radius: 50%; 
-    border: 5px solid rgba(245, 168, 187, 0.75);
+    border: 5px solid rgba(245, 168, 187);
 }
 
 .aboutMe { 
@@ -59,7 +59,7 @@
     font-size: 2.5rem;
 }
 
-.skillsSection { 
+.skillsSection, .projectSection { 
     margin: 5%;
 } 
 
@@ -93,4 +93,12 @@
 .projectSection h1 { 
     display: flex;
     justify-content: center;
+}
+
+.project1, 
+.project2, 
+.project3, 
+.project4,
+.project5 {
+    border: 5px solid rgba(245, 168, 187);
 }
