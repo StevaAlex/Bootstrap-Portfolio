@@ -84,6 +84,12 @@
     margin-left: 15vw;
 }
 
+.skillsSection h1, 
+.projectSection h1, 
+#contactMe h1 { 
+    margin: 5%;
+}
+
 .project1 img { 
     height: 50vh;
     object-fit: cover;
