@@ -38,7 +38,8 @@
     width: fit-content; 
     margin-left: auto;
     margin-right: auto;
-    border-radius: 30px; 
+    border-radius: 30px;  
+    margin-top: 25vh;
 } 
 
 .aboutMe img { 
@@ -63,7 +64,8 @@
     margin: 5%;
 } 
 
-.skillsSection h1{ 
+.skillsSection h1, 
+#contactMe h1 { 
     display: flex;
     justify-content: center;
 }
@@ -72,6 +74,14 @@
     border-radius: 50%;
     width: 100px;
     height: 100px;
+}
+
+.skillsSection .card { 
+    border: none; /* to remove cards grid outline */
+}
+.skillsCard { 
+    display: flex;
+    margin-left: 15vw;
 }
 
 .project1 img { 
@@ -100,5 +110,11 @@
 .project3, 
 .project4,
 .project5 {
-    border: 5px solid rgba(245, 168, 187);
+    border: 5px solid rgba(245, 168, 187); 
+    border-radius: 20px;
+} 
+
+footer p { 
+    display: flex; 
+    justify-content: center;
 }
