@@ -17,13 +17,23 @@
 
 .navbar { 
     background: url("../images/background3.png"); 
-    background-size: cover; 
-} 
+    background-size: cover;  
+}
 
 .navbar a:hover { 
     text-decoration: none;
 }
+.navbar a, 
+.navbar a:visited, 
+.nav-item a:visited 
+.nav-item a { 
+    color: white !important;
+}
 
+.navbar a:hover { 
+    /* font-size: 20px; */
+    transform: scale(1.25);
+}
 .jumbotron { 
     background: url("../images/img2.jpg");
     background-size: cover; 
@@ -120,7 +130,12 @@
     border-radius: 20px;
 } 
 
+.projectSection .btn { 
+    background-color: rgba(245, 168, 187);
+    border-color: rgba(245, 168, 187);
+    border-radius: 25px;
+}
 footer p { 
     display: flex; 
-    justify-content: center;
-}
+    justify-content: center;  
+} 
