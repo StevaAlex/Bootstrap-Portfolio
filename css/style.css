@@ -1,6 +1,7 @@
 .navbar-icon img{ 
     width: 60px;
-    padding-right: 15px;
+    padding-right: 15px; 
+    border-radius: 50%;
 }
 
 .navbar-nav{
@@ -40,11 +41,27 @@
     border-radius: 30px; 
 } 
 
+.aboutMe img { 
+    height: 40vh;
+    width: 40vh;  
+    object-fit: cover;
+    border-radius: 50%; 
+    border: 5px solid rgba(245, 168, 187, 0.75);
+}
+
+.aboutMe { 
+display: flex; 
+align-items: center; 
+width: 75vw; /* makes this section take up 75% of screen(from left to right), leaving a blank space at the end towards right */
+margin-left: 12.5vw; /* adds 12.5vw space towards the left, pushing content towards middle */
+}
+
 .project1 img { 
     height: 50vh;
     object-fit: cover;
     object-position: cover;
-    width: 100%;
+    width: 100%; 
+    object-fit: cover;
 }
 
 .row2projects img, 
